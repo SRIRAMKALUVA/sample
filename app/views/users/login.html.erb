@@ -1,0 +1,18 @@
+<%= form_tag({action: :validate_user}, {method: :put}) do %>
+  <table class="table table-striped">
+    <tr>
+      <td><%= label_tag :email%></td>
+      <td><%= email_field_tag :email%></td>
+    </tr>
+    <tr>
+      <td><%= label_tag :password%></td>
+      <td><%= password_field_tag :password%></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><%= submit_tag "Sign In"%></td>
+    </tr>
+  </table>
+<%end%>
+
+<%= link_to "Sign Up", signup_path%>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <% unless session[:user_id].nil? %>
+      <%= link_to "Logout", logout_path, method: :delete%>
+    <%end%>
+    <!-- to display the flash messages on the pages -->
+
+    <% flash.each do |_, value| %>
+      <%= value%>
+    <%end%> 
+
+    <%= yield %>
+  </body>
+</html>

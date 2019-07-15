@@ -1,0 +1,36 @@
+<%= render "errors"%>
+<!-- render "errors" , new_object: existing_object -->
+
+<%= form_for @user do | f |%>
+  <table class="table table-striped">
+    <tr>
+      <td><%= f.label :name%></td>
+      <td><%= f.text_field :name%></td>
+    </tr>
+    <tr>
+      <td><%= f.label :email%></td>
+      <td><%= f.email_field :email%></td>
+    </tr>
+    <tr>
+      <td><%= f.label :password%></td>
+      <td><%= f.password_field :password%></td>
+    </tr>
+    <tr>
+      <td><%= f.label :confirm_password%></td>
+      <td><%= f.password_field :confirm_password%></td>
+    </tr>
+    <%= f.fields_for :image do | image |%>
+      <tr>
+        <td><%= image.label :photo%></td>
+        <td><%= image.file_field :photo%></td>
+      </tr>
+    <%end%>
+    <tr>
+      <td></td>
+      <td><%= f.submit "Sign Up"%></td>
+    </tr>
+  </table>
+<%end%>
+
+<%= link_to "Login" , login_path%>
+<!--%= link_to "Home" , users_path%-->

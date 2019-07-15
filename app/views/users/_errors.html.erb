@@ -1,0 +1,7 @@
+<% unless @user.errors.blank? %>
+  <% if @user.errors.messages.any? %>
+    <% @user.errors.messages.each do | k, v |%>
+      <%= "#{k} : #{v.join(',')}"%>
+    <%end%>
+  <%end%>
+<%end%>

@@ -1,0 +1,202 @@
+html {
+	margin: 0;
+	padding: 20px;
+    overflow-y: auto;
+    background: #faf3e6;
+    background-size: 22em;
+    font-family: "Lucida-Calligraphy", Papyrus;
+	}
+.snav{
+	font-color: 'black';
+}
+/*.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: o;
+  overflow: hidden;
+
+  position: -webkit-sticky;
+  position: static;
+ text-align: center;
+  top: 0;
+  border-style: solid;
+  border-color: #faf3e6 #faf3e6 #000000 #faf3e6;
+}*/
+.stalk{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #333;*/
+  position: -webkit-sticky; /* Safari */
+  position: static;
+ text-align: center;
+  top: 0;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+li {
+  display: inline;
+
+
+}
+/*.vl {
+  border-left: 6px solid green;
+  height: 10px;
+}*/
+a { color: #000000; }
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: #721616;
+}
+.heade{
+	font-family: "Lucida-Calligraphy", Papyrus;
+	text-align: center;
+	font-size: 100pt;
+	margin: -20px -20px -80px -20px;
+}
+body {
+
+	line-height: 1.88889;
+	background-color: #faf3e6;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	}
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 450px; /* Should be removed. Only for demonstration */
+  margin: 10px 10px 0px 0px;
+  box-sizing: border-box;
+  background-color: #fcfbf9;
+}
+.mapcolumn {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 480px; /* Should be removed. Only for demonstration */
+  margin: 10px 10px 0px 0px;
+  box-sizing: border-box;
+  background-color: #fcf9fa;
+}
+#content div {
+  float: right;
+  width: 80%;
+  padding: 0px;
+  height: 700px; /* Should be removed. Only for demonstration */
+  margin: 60px;
+  box-sizing: border-box;
+  background-color: #faf3e6;
+  	border-style: solid;
+  border-color: #faf3e6 #faf3e6 #721616 #faf3e6;
+/*clear: right;*/
+}
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 0px;
+  height: 150px; /* Should be removed. Only for demonstration */
+  margin: 10px 10px 0px 0px;
+  box-sizing: border-box;
+  background-color: #fcf9fa;
+  border-style: solid;
+   border-color: #721616 #faf3e6 #faf3e6 #faf3e6;
+}
+#para span {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: "Lucida-Calligraphy", Papyrus;
+  line-height: 80%;
+
+}
+.column1 {
+  float: left;
+  width: 60%;
+  margin: 10px;
+  padding: 10px;
+  height: 450px; /* Should be removed. Only for demonstration */
+  box-sizing: border-box;
+}
+.columnnoborder {
+  float: left;
+  width: 60%;
+  margin: 10px;
+  padding: 10px;
+  height: 450px; /* Should be removed. Only for demonstration */
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #faf3e6 #faf3e6 #faf3e6 #faf3e6;
+}
+  #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+
+
+.hline{
+	border-style: solid;
+  border-color: #faf3e6 #faf3e6 #721616 #faf3e6;
+  width: 100%;
+  padding: 6em 0em 0 0;
+}
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0em 0em 10em;
+	padding: 1em;
+	height: 50px;
+	background-color: #faf3e6;
+	color: #000000;
+	/*border-style: solid;*/
+  /*border-color: #faf3e6 #faf3e6 #000000 #faf3e6;*/
+  /*border-bottom: solid;*/
+}
+#nav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 10	px; }
+#nav li {
+	float: left;
+	 }
+#nav li a {
+	display: block;
+	margin: 0em 0em 0em 0em;
+	padding: 18px 15px 0px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+#nav li a:hover {
+	color: #721616;
+	/*background-color: ; }*/
+}
+
+
+#top{
+	text-align: right;
+	font-size: 50pt;
+	float: right;
+  width: 80%;
+  padding: 0px;
+  height: 70px; /* Should be removed. Only for demonstration */
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #faf3e6;
+
+}
+
+.upmove{
+	color: #721616;
+}
